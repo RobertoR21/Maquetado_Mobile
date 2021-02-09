@@ -388,6 +388,7 @@ main
     min-width: 320px;
     max-width: 900px;
     height: auto;
+    margin: 0 auto;
     padding: 20px 10px;
     background-color: var(--warm-black);
 }
@@ -507,4 +508,221 @@ main
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
+}
+
+.main--plans--container
+{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title
+{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.plans--title h2
+{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-weight: 2.6rem;
+    color: var(--black);
+}
+
+.plans--title p
+{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.plans--container--class
+{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px; 
+    height: 250px;
+    margin: 50px auto 0;
+    padding:  0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+.plans--container--class .recomended
+{
+    position: absolute;
+    width: 120px;
+    min-width: 100px;
+    max-width: 200px;
+    height: 30px;
+    left: calc(50% - 60px);
+    top: -15px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+}
+
+.plan--card--title
+{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan--card--price
+{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+
+.plan--card--price span
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+
+.plan--card--saving
+{
+    margin-top: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.plan-card--call
+{
+
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    color: #E5E5E5;
+    border: 2px var(--soft-orange) solid;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+
+}
+
+.plan-card--call span
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
+}
+
+.plans--container--class .basic
+{
+    position: absolute;
+    width: 120px;
+    min-width: 100px;
+    max-width: 200px;
+    height: 30px;
+    left: calc(50% - 60px);
+    top: -15px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    background-color: var(--secondary-blue);
+    color: var(--just-white);
+}
+
+.plans--exclusive--class .exclusivo
+{
+    position: absolute;
+    width: 120px;
+    min-width: 100px;
+    max-width: 200px;
+    height: 30px;
+    left: calc(50% - 60px);
+    top: -15px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    background-color: var(--black);
+    color: var(--bitcoin-orange);
+}
+
+.plans--exclusive--class
+{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    max-width: 250px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 0 15px;
+    background-color: var(--warm-black);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(224, 219, 203, 0.16);
+}
+
+.plans--exclusive--class .plan--card--title
+{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.plans--exclusive--class .plan--card--price
+{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--just-white);
+}
+
+.plans--exclusive--class .plan--card--saving
+{
+    margin-top: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--just-white);    
+}
+
+.plans--exclusive--class .plan-card--call
+{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: var(--black);
+    border: 2px var(--soft-orange) solid;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--bitcoin-orange);
 }
